@@ -14,7 +14,7 @@ h1{
     color: #007ACC;
 }
 
-h2{
+h2, h3{ 
     font-size: 1.5rem;
     font-weight: bold;
     color: #007ACC;
@@ -29,9 +29,16 @@ h2{
     justify-content:space-between;
 }
 
-.bi-chevron-right{
+.bi-chevron-right, .bi-filetype-css, .bi-filetype-html, .bi-filetype-js, .bi-filetype-php, .bi-mortarboard-fill{ 
     color: #007ACC;
     font-weight: 900;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.icobandera{
+    height: 25px;
+    margin-right: 20px;
+
 }
 
 /*=========================FOOTER================================*/
